@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "@clerk/express": "^2.1.23",
+    "@octokit/rest": "^22.0.1",
+    "@pinecone-database/pinecone": "^7.2.0",
+    "@sentry/node": "^10.56.0",
+    "bcrypt": "^6.0.0",
+    "cloudinary": "^2.10.0",
+    "cors": "^2.8.6",
+    "dns": "^0.1.2",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.7.0",
+    "morgan": "^1.11.0",
+    "multer": "^2.1.1",
+    "nodemon": "^3.1.14",
+    "openai": "^6.42.0",
+    "passport": "^0.7.0",
+    "passport-github2": "^0.1.12",
+    "svix": "^1.95.1"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  }
+}
